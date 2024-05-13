@@ -1,3 +1,7 @@
+// จากโค้ดใน Exercise #2 ให้เขียนโค้ดตามโจทย์ที่กำหนด
+// ลบ Object ของพนักงานที่ชื่อ “Kody” ใน updateEmployees
+// เมื่อลบข้อมูลเสร็จแล้วให้ console.log ดูค่าของ employees
+
 const employees = [
   {
     name: "James",
@@ -22,3 +26,5 @@ const employees = [
 ];
 
 // Start coding here
+employees.pop();
+console.log(employees);
